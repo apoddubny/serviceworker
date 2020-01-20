@@ -185,7 +185,8 @@ function sendNotification(notification) {
     var key = 'AAAA3X__Qf0:APA91bEawnV8Zxe9gBOFR4_o8o-faYloh-DL_UckFvcVJg4uwKBRZ9c9HOnzWRdVDMh4jLgZrdVFk-ABWu7sxcB1vWwP4AxAXyDP4l50P12tPeJ8C14qinU04yQHoo_BBeMETaJKk5bQ';
 
     console.log('Send notification', notification);
-
+    console.log('Auth:', 'key=' + key);
+    
     // hide last notification data
     info.hide();
     massage_row.hide();
